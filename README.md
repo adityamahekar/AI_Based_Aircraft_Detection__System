@@ -13,17 +13,16 @@
 ### Dashboard & Results
 
 | **Dashboard** | **ATR-72** |
-|------------|------------|
-| ![Dashboard](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/dashboard.jpg) | ![ATR-72](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/ATR_72_29.jpg) |
+|---------------|------------|
+| ![Dashboard](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/dashboard.jpg){width=300 height=200} | ![ATR-72](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/ATR_72_29.jpg){width=300 height=200} |
 
 | **MiG-29** | **Su-30** |
-|------------|------------|
-| ![MiG-29](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/MiG-29_80.jpg) | ![Su-30](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/Su-30_24.jpg) |
+|------------|-----------|
+| ![MiG-29](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/MiG-29_80.jpg){width=300 height=200} | ![Su-30](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/Su-30_24.jpg){width=300 height=200} |
 
 | **MQ-9 Reaper** | **Su-30** |
-|------------|------------|
-| ![MQ-9 Reaper](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/MQ-9_Reaper_Drone_7.jpg) | ![Su-30](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/Su-30_25.jpg) |
-
+|-----------------|-----------|
+| ![MQ-9 Reaper](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/MQ-9_Reaper_Drone_7.jpg){width=300 height=200} | ![Su-30](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/Su-30_25.jpg){width=300 height=200} |
 
 **System Architecture:**
 ```
