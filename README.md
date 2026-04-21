@@ -10,15 +10,17 @@
 
 **AI-based Aircraft Recognition System** capable of detecting aircraft in **images, videos, and real-time camera feeds** and identifying their type automatically.
 
-### Dashboard
-![Dashboard](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/dashboard.jpg)
+### Dashboard & Results
 
-### Sample Detection Results
-![ATR-72](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/ATR_72_29.jpg)
-![MiG-29](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/MiG-29_80.jpg)
-![Su-30](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/Su-30_24.jpg)
-![MQ-9 Reaper](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/MQ-9_Reaper_Drone_7.jpg)
-![Su-30](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/Su-30_25.jpg)
+| **Image** | **Aircraft Type** |
+|-----------|-------------------|
+| ![Dashboard](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/dashboard.jpg) | **Dashboard** |
+| ![ATR-72](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/ATR_72_29.jpg) | **ATR-72** |
+| ![MiG-29](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/MiG-29_80.jpg) | **MiG-29** |
+| ![Su-30](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/Su-30_24.jpg) | **Su-30** |
+| ![MQ-9 Reaper](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/MQ-9_Reaper_Drone_7.jpg) | **MQ-9 Reaper** |
+| ![Su-30](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/Su-30_25.jpg) | **Su-30** |
+
 
 **System Architecture:**
 ```
