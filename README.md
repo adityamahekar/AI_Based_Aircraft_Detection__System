@@ -1,81 +1,70 @@
-✈️ AI-Based Aircraft Recognition System
-Aircraft Detection using YOLOv8 and Classification using ResNet-50
+```markdown
+# ✈️ AI-Based Aircraft Recognition System
+**Aircraft Detection using YOLOv8 and Classification using ResNet-50**
 
->>>Google Drive Link Of Full Project:
-   https://drive.google.com/drive/folders/149i_iHdHYb1TVz3OH6jZMLhLpTInKpq3
+[![Google Drive](https://img.shields.io/badge/Google%20Drive-Full%20Project-4285F4?style=for-the-badge&logo=google-drive&logoColor=FFFFFF)](https://drive.google.com/drive/folders/149i_iHdHYb1TVz3OH6jZMLhLpTInKpq3)
 
-📌 Project Overview
-Outputs:
-1) Dashboard:
-![Homepage](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/dashboard.jpg
-)
-2) Detection and Classification Output Images
-![Homepage](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/ATR_72_29.jpg
-)
-![Homepage](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/MiG-29_80.jpg
-)
-![Homepage](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/Su-30_24.jpg
-)
-![Homepage](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/MQ-9_Reaper_Drone_7.jpg
-)
-![Homepage](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/Su-30_25.jpg
-)
+---
 
+## 📌 Project Overview
 
-This project presents an AI-based Aircraft Recognition System capable of detecting aircraft in images, videos, and real-time camera feeds and identifying their type automatically.
+**AI-based Aircraft Recognition System** capable of detecting aircraft in **images, videos, and real-time camera feeds** and identifying their type automatically.
 
-The system uses:
+### Dashboard
+![Dashboard](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/dashboard.jpg)
 
-YOLOv8 for aircraft detection
+### Sample Detection Results
+![ATR-72](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/ATR_72_29.jpg)
+![MiG-29](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/MiG-29_80.jpg)
+![Su-30](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/Su-30_24.jpg)
+![MQ-9 Reaper](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/MQ-9_Reaper_Drone_7.jpg)
+![Su-30](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/Su-30_25.jpg)
 
-ResNet-50 (CNN with Transfer Learning) for aircraft classification
+**System Architecture:**
+```
+YOLOv8 (Detection) → Bounding Boxes → ResNet-50 (Classification) → Aircraft Type + Confidence
+```
 
-The detection model locates aircraft using bounding boxes, and the classification model identifies the aircraft type with confidence scores.
+### Applications
+- Airport surveillance
+- Airspace monitoring
+- Defense and security systems
+- UAV and drone tracking
+- Aviation research and analytics
 
-This system can be applied in:
+---
 
-Airport surveillance
+## 🚀 Features
 
-Airspace monitoring
+- ✔ Aircraft detection using **YOLOv8**
+- ✔ Aircraft classification using **ResNet-50**
+- ✔ Image input support
+- ✔ Video input support
+- ✔ Real-time webcam detection
+- ✔ Web-based interface using **Flask**
+- ✔ Modular architecture (detection + classification pipeline)
 
-Defense and security systems
+---
 
-UAV and drone tracking
+## 🧠 Models Used
 
-Aviation research and analytics
+### 1️⃣ YOLOv8 (Detection Model)
+- Detects aircraft in an image
+- Outputs bounding box coordinates
+- Provides confidence score
+- Fast and suitable for real-time applications
 
-🚀 Features
+### 2️⃣ ResNet-50 (Classification Model)
+- Deep Convolutional Neural Network
+- Uses transfer learning
+- Classifies cropped aircraft images
+- Handles fine-grained aircraft differences
 
-✔ Aircraft detection using YOLOv8
-✔ Aircraft classification using ResNet-50
-✔ Image input support
-✔ Video input support
-✔ Real-time webcam detection
-✔ Web-based interface using Flask
-✔ Modular architecture (detection + classification pipeline)
+---
 
-🧠 Models Used
-1️⃣ YOLOv8 (Detection Model)
+## 📂 Project Structure
 
-Detects aircraft in an image
-
-Outputs bounding box coordinates
-
-Provides confidence score
-
-Fast and suitable for real-time applications
-
-2️⃣ ResNet-50 (Classification Model)
-
-Deep Convolutional Neural Network
-
-Uses transfer learning
-
-Classifies cropped aircraft images
-
-Handles fine-grained aircraft differences
-
-📂 Project Structure
+```
 AI-Aircraft-Recognition-System/
 │
 ├── app.py
@@ -87,165 +76,177 @@ AI-Aircraft-Recognition-System/
 │
 ├── models/               # Model architecture files
 ├── test_images/          # Sample test images
-├── data.yaml             # YOLO dataset configuration
+├── data.yaml            # YOLO dataset configuration
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-📊 Dataset Information
+```
 
-Aircraft images were collected from:
+---
 
-FGVC-Aircraft Dataset
+## 📊 Dataset Information
 
-FAIR1M Dataset
+**Aircraft images collected from:**
+- FGVC-Aircraft Dataset
+- FAIR1M Dataset
+- UCAS-AOD Dataset
+- Public aviation image sources
 
-UCAS-AOD Dataset
+**Dataset includes:**
+- Commercial aircraft
+- Military aircraft
+- UAV types
+- Different angles and lighting conditions
 
-Public aviation image sources
+**Dataset split:**
+- Training set
+- Validation set
+- Testing set
 
-Dataset includes:
+**Annotation:** LabelImg in YOLO format
 
-Commercial aircraft
+---
 
-Military aircraft
+## ⚙️ Installation Guide
 
-UAV types
-
-Different angles and lighting conditions
-
-The dataset was split into:
-
-Training set
-
-Validation set
-
-Testing set
-
-Aircraft were annotated using LabelImg in YOLO format.
-
-⚙️ Installation Guide
-🔹 Step 1: Clone Repository
-git clone https://github.com/yourusername/AI-Aircraft-Recognition-System.git
+### 🔹 Step 1: Clone Repository
+```bash
+git clone https://github.com/arun0180/AI-Aircraft-Recognition-System.git
 cd AI-Aircraft-Recognition-System
-🔹 Step 2: Create Virtual Environment (Optional but Recommended)
+```
+
+### 🔹 Step 2: Create Virtual Environment (Recommended)
+```bash
 python -m venv venv
-venv\Scripts\activate   # Windows
-🔹 Step 3: Install Requirements
+# Windows
+venv\Scripts\activate
+# Linux/Mac
+source venv/bin/activate
+```
+
+### 🔹 Step 3: Install Requirements
+```bash
 pip install -r requirements.txt
-▶️ How to Run the Project
-🔹 Run Web Application
+```
+
+---
+
+## ▶️ How to Run the Project
+
+### 🔹 Run Web Application
+```bash
 python app.py
+```
+**Open browser:** http://127.0.0.1:5000
 
-Open browser and go to:
+### 🔹 Train Models
+```bash
+python scripts/train_detector.py      # YOLOv8 Detector
+python scripts/train_classifier.py    # ResNet Classifier
+```
 
-http://127.0.0.1:5000
-🔹 Train YOLOv8 Detector
-python scripts/train_detector.py
-🔹 Train ResNet Classifier
-python scripts/train_classifier.py
-🔹 Run Image Detection
-python scripts/recognize_image.py
-🔹 Run Video Detection
-python scripts/detect_video.py
-📈 Performance Metrics
+### 🔹 Run Detection
+```bash
+python scripts/recognize_image.py     # Image detection
+python scripts/detect_video.py        # Video detection
+```
 
-The system was evaluated using:
+---
 
-Accuracy
+## 📈 Performance Metrics
 
-Precision
+**Evaluated using:**
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- mAP (mean Average Precision)
+- Confusion Matrix
 
-Recall
+**Results:**
+- Accurate detection in complex backgrounds
+- Reliable classification across multiple aircraft types
+- Real-time performance with GPU support
 
-F1-score
+---
 
-mAP (mean Average Precision)
+## 💻 Technologies Used
 
-Confusion Matrix
+```
+-  Python
+-  PyTorch
+-  Ultralytics YOLOv8
+-  OpenCV
+-  NumPy
+-  Matplotlib
+-  Flask
+```
 
-Results show:
+---
 
-Accurate detection in complex backgrounds
+## 🔥 Key Advantages
 
-Reliable classification across multiple aircraft types
+- **End-to-end aircraft recognition**
+- **Real-time capability**
+- **Scalable architecture**
+- **Modular detection + classification design**
+- **Easy deployment**
 
-Real-time performance with GPU support
+---
 
-💻 Technologies Used
+## ⚠️ Limitations
 
-Python
+- Performance may reduce for very small aircraft
+- Visually similar aircraft may cause minor confusion
+- Real-time performance depends on hardware
 
-PyTorch
+---
 
-Ultralytics YOLOv8
+## 🔮 Future Enhancements
 
-OpenCV
+- Add aircraft tracking (DeepSORT)
+- Expand dataset with more aircraft types
+- Deploy on edge devices (Jetson Nano)
+- Integrate satellite image support
+- Add Explainable AI (Grad-CAM visualization)
 
-NumPy
+---
 
-Matplotlib
+## 📌 Applications
 
-Flask
+- **Airport security monitoring**
+- **Airspace surveillance**
+- **Defense monitoring systems**
+- **UAV monitoring**
+- **Aviation analytics**
 
-🔥 Key Advantages
+---
 
-End-to-end aircraft recognition
+## 👥 Development Team
 
-Real-time capability
+**Mini Project**  
+**Department of Computer Science and Engineering**  
+**BMS Institute of Technology & Management**
 
-Scalable architecture
+| Contributor | LinkedIn |
+|-------------|----------|
+| Aditya Mahekar | [Profile](https://www.linkedin.com/in/aditya-mahekar/) |
+| Arun Biradar | [Profile](https://www.linkedin.com/in/arun-biradar01/) |
+| Abhishek Ireddy | [Profile](https://www.linkedin.com/in/abhishek-ireddy-946a8a222/) |
+| Abhishek A M | [Profile](https://www.linkedin.com/in/mr-abhishek-988224357/) |
 
-Modular detection + classification design
+---
 
-Easy deployment
+## 📜 License
+**Developed for academic and research purposes.**
 
-⚠️ Limitations
+## ⭐ Support This Project
+Give this repository a ⭐ on GitHub!
 
-Performance may reduce for very small aircraft
+**Full Project Files:** [Google Drive](https://drive.google.com/drive/folders/149i_iHdHYb1TVz3OH6jZMLhLpTInKpq3)
 
-Visually similar aircraft may cause minor confusion
+---
+*Made by BMSIT CSE Students*
+```
 
-Real-time performance depends on hardware
-
-🔮 Future Enhancements
-
-Add aircraft tracking (DeepSORT)
-
-Expand dataset with more aircraft types
-
-Deploy on edge devices (Jetson Nano)
-
-Integrate satellite image support
-
-Add Explainable AI (Grad-CAM visualization)
-
-📌 Applications
-
-Airport security monitoring
-
-Airspace surveillance
-
-Defense monitoring systems
-
-UAV monitoring
-
-Aviation analytics
-
-📜 License
-
-This project is developed for academic and research purposes.
-
-👨‍💻 Author
-
-Developed as part of a Mini Project
-Department of Computer Science and Engineering
-BMS Institute of Technology & Management
-
-⭐ If You Found This Useful
-
-Give this repository a ⭐ on GitHub.
-
-
-
-
-
+**Updated team table** - Removed roles column as requested, keeping only **Contributor** and **LinkedIn** columns with all original content preserved.
