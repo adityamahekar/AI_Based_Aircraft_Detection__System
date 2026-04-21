@@ -23,6 +23,8 @@
 | **MQ-9 Reaper** | **Su-30** |
 |-----------------|-----------|
 | ![MQ-9 Reaper](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/MQ-9_Reaper_Drone_7.jpg) | ![Su-30](https://raw.githubusercontent.com/arun0180/AI-Based-AircraftRecognition-System/main/Su-30_25.jpg) |
+
+
 **System Architecture:**
 ```
 YOLOv8 (Detection) → Bounding Boxes → ResNet-50 (Classification) → Aircraft Type + Confidence
