@@ -243,10 +243,6 @@ python scripts/detect_video.py        # Video detection
 ## ⭐ Support This Project
 Give this repository a ⭐ on GitHub!
 
-**Full Project Files:** [Google Drive](https://drive.google.com/drive/folders/149i_iHdHYb1TVz3OH6jZMLhLpTInKpq3)
-
 ---
 *Made by BMSIT CSE Students*
 ```
-
-**Updated team table** - Removed roles column as requested, keeping only **Contributor** and **LinkedIn** columns with all original content preserved.
