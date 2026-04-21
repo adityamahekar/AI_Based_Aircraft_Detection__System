@@ -10,7 +10,7 @@
 
 **AI-based Aircraft Recognition System** capable of detecting aircraft in **images, videos, and real-time camera feeds** and identifying their type automatically.
 
-# Dashboard & Results
+### Dashboard & Results
 
 | **Dashboard** | **ATR-72** |
 |---------------|------------|
