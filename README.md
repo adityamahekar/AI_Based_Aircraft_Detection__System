@@ -250,4 +250,3 @@ Give this repository a ⭐ on GitHub!
 
 ---
 *Made by BMSIT CSE Students*
-```
